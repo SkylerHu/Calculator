@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    
+    <string name="num0">0</string>
+	<string name="num1">1</string>
+	<string name="num2">2</string>
+	<string name="num3">3</string>
+	<string name="num4">4</string>
+	<string name="num5">5</string>
+	<string name="num6">6</string>
+	<string name="num7">7</string>
+	<string name="num8">8</string>
+	<string name="num9">9</string>
+	<string name="point">.</string>
+	<string name="brackets0">(</string>
+	<string name="brackets1">)</string>
+	<string name="operatorC">退格</string>
+	<string name="operator0">清零</string>
+	<string name="operator1">+</string>
+	<string name="operator2">-</string>
+	<string name="operator3">*</string>
+	<string name="operator4">/</string>
+	<string name="operator5">=</string>
+    
+</resources>
