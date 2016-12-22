@@ -2,30 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
     
     <TextView
         android:id="@+id/result"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:background="#a3a3a3"
+        android:layout_margin="10dp"
         android:padding="10dp"
         />
     <LinearLayout
         android:id="@+id/keys_layout"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:orientation="vertical"
         >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:orientation="horizontal">
-            <Button
-                android:id="@+id/operator_0"
-                style="@style/btn_normal"
-                android:text="@string/operator0"
-                android:onClick="clickMe"
-                />
             <Button
                 android:id="@+id/brackets_left"
                 style="@style/btn_normal"
@@ -39,10 +39,18 @@
                 android:onClick="clickMe"
                 />
             <Button
+                android:id="@+id/operator_0"
+                style="@style/btn_normal"
+                android:text="@string/operator0"
+                android:onClick="clickMe"
+                android:background="@color/btn_operation"
+                />
+            <Button
                 android:id="@+id/back_space"
                 style="@style/btn_normal"
                 android:text="@string/operatorC"
                 android:onClick="clickMe"
+                android:background="@color/btn_operation"
                 />
         </LinearLayout>
         <LinearLayout
@@ -159,6 +167,7 @@
                 style="@style/btn_normal"
                 android:text="@string/operator5"
                 android:onClick="clickMe"
+                android:background="@color/btn_operation"
                 />
         </LinearLayout>
 
